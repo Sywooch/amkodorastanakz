@@ -74,7 +74,7 @@ $this->beginPage();
                 <div class="footer__wrapper">
                     <div class="logo"></div>
                     <div class="footer__copyright">www.amkodor-astana.kz</div>
-                    <div class="footer__phone"><span>+7 717 299-92-35</span><span>+7 717 299-92-35</span></div>
+                    <div class="footer__phone"><span>+7 717 299-92-35</span><span>+7 717 299-92-36</span></div>
                 </div>
             </footer>
             <?=\app\modules\store\widgets\SparesOrder::widget()?>
