@@ -59,7 +59,7 @@ $this->beginPage();
                 <div class="header__wrapper">
                     <a href="<?=Url::home()?>" title="" class="logo"></a>
                     <nav class="top-menu">
-                        <a href="<?= Url::to(['/cms/default/page', 'path' => 'o-kompanii']) ?>" title="" class="top-menu__item">О КОМПАНИИ</a>
+                        <a href="http://amkodor.by" target="_blank" title="" class="top-menu__item">О КОМПАНИИ</a>
                         <a href="<?= Url::to(["/store/category"]) ?>" title="" class="top-menu__item">ТЕХНИКА</a>
                         <a href="<?= Url::to(["/store/spares"]) ?>" title="" class="top-menu__item">ЗАПЧАСТИ</a>
                         <a href="<?= Url::to(['/cms/default/page', 'path' => 'servis']) ?>" title="" class="top-menu__item">СЕРВИС</a>

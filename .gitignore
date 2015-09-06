@@ -40,3 +40,4 @@ phpunit.phar
 
 /web/uploads
 !/web/uploads/.gitkeep
+/web/.htaccess
