@@ -63,7 +63,7 @@ class Image extends \yii\db\ActiveRecord
         if($this->src)
         {
             $file = Yii::$app->thumbler->resize($this->src, $width, $height,$method);
-            return Url::base().Yii::getAlias('@web/' . Yii::$app->thumbler->thumbsPath) . $file;
+            return Url::base().Yii::getAlias('/'.Yii::$app->thumbler->thumbsPath) . $file;
         }
         return 'http://placehold.it/'.$size;
     }
