@@ -18,11 +18,9 @@ $this->title = 'Главная';
         <div class="advantages__item">100% ГАРАНТИЯ КАЧЕСТВА ТОВАРА</div>
     </div>
 </section>
-<section class="catalog-content">
-    <div class="catalog-content__wrapper">
-        <h1 class="catalog-content__title">КАТАЛОГ ПРОДУКЦИИ</h1>
-        <section class="lineup">
-            <div class="lineup__wrapper">
+<section class="lineup">
+    <div class="lineup__wrapper">
+        <div class="lineup__title"><span>Каталог техники</span></div>
                 <?php foreach (\app\modules\store\models\Category::find()->all() as $model): ?>
                     <div class="lineup-item">
                         <img src="<?= $model->imageSrc('229x116') ?>" alt="" class="lineup-item__img">
