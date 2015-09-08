@@ -6,6 +6,7 @@
  */
 use yii\widgets\ActiveForm;
 $config['options'] = ['class'=>'request-form'];
+$config['fieldConfig']['options'] = ['class'=>''];
 ?>
 <section class="request">
     <div class="request__title">Оставить Заявку!</div>
