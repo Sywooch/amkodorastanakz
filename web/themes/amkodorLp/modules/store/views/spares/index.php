@@ -10,7 +10,7 @@ $this->title = 'Запчасти';
         <h1 class="catalog-content__title">Запчасти</h1>
         <?php foreach ($categoryList as $categoryItem): ?>
         <div class="catalog-content-item">
-            <img src="<?=$categoryItem->imageSrc('307x210')?>" alt="" class="catalog-content-item__img">
+            <img src="<?=$categoryItem->imageSrc('229x116')?>" alt="" class="catalog-content-item__img">
             <div class="catalog-content-item__hover">
                 <a href="<?= $categoryItem->path ?>" title="" class="catalog-content-item__link"><?=$categoryItem->title?></a>
                 <?php if (($categoryProducts = $categoryItem->products)): ?>
