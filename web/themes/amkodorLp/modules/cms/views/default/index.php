@@ -41,17 +41,17 @@ $this->title = 'Главная';
     <div class="services__wrapper">
         <div class="services__item services__item--service">
             <a href="<?= Url::to(["/cms/default/page",'path'=>'servis']) ?>">
-                <span>Сервис</span>
+                Сервис
             </a>
         </div>
         <div class="services__item services__item--spares">
             <a href="<?= Url::to(["/store/spares"]) ?>">
-                <span>Запчасти</span>
+                Запчасти
             </a>
         </div>
         <div class="services__item services__item--lease">
             <a href="<?= Url::to(['/cms/default/page', 'path' => 'lizing']) ?>">
-                <span>Лизинг</span>
+                Лизинг
             </a>
         </div>
         <div class="services__banner"><img src="<?=$this->theme->getUrl('static/images/content/banner.jpg')?>" alt=""></div>
