@@ -51,7 +51,7 @@ class Category extends \yii\db\ActiveRecord
         return [
             [['title'],'required'],
             [['title'],'unique'],
-            [['visible', 'position','typeId'], 'integer'],
+            [['visible', 'position'], 'integer'],
             [['title', 'alias','modificatorTitle'], 'string', 'max' => 128],
         ];
     }
