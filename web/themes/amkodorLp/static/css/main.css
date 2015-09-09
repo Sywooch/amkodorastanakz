@@ -516,12 +516,16 @@ table {
 .cart-content p {
   text-align: justify;
   text-justify: newspaper; }
+.cart-content img {
+  margin-bottom: 20px;
+  margin-left: 20px; }
 .cart-content table {
-  font-size: 1.125em; }
+  font-size: 1.125em !important; }
   .cart-content table tr th {
     text-align: center; }
   .cart-content table tr td {
-    text-align: center; }
+    text-align: center;
+    font-size: 1em !important; }
 
 .cart-content-modification {
   position: relative;
@@ -1020,7 +1024,8 @@ table {
 
 .product-list-content-sidebar {
   float: left;
-  width: 300px; }
+  width: 300px;
+  margin-bottom: 40px; }
 
 .product-list-content-sidebar-menu {
   margin: 0;

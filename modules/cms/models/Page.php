@@ -20,6 +20,7 @@ use yii\helpers\Url;
  * @property string $dateCreate
  * @property integer $visible
  * @property integer $parentId
+ * @property Image $image
  * @property \app\modules\cms\models\Category $category
  * @method string imageSrc(string $size = '100x100', string $method = Thumbler::METHOD_NOT_BOXED)
  */
