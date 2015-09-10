@@ -10,7 +10,6 @@
 <p>
     <strong>Запчасть:</strong> <?=$sparesItem->title?> <br/>
     <strong>Модель:</strong> <?=$sparesItem->model?> <br/>
-<!--    <strong>Цена:</strong> --><?//=$sparesItem->price?><!-- <br/>-->
 </p>
 
 <ul>

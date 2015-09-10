@@ -26,7 +26,6 @@ $this->title = $sparesCategory->title;
             <thead>
                 <tr>
                     <th>Название</th>
-<!--                    <th>ЦЕНА</th>-->
                     <th></th>
                 </tr>
             </thead>
@@ -35,7 +34,6 @@ $this->title = $sparesCategory->title;
                     /** @var $item \app\modules\store\models\SparesItem */?>
                 <tr>
                     <td><?=$item->model?></td>
-<!--                    <td>--><?//=$item->price?><!--</td>-->
                     <td>
                         <a href="#request" title="" data-click="modal" data-id="<?=$item->id?>" class="_sparesOrder">Заказать</a>
                     </td>
