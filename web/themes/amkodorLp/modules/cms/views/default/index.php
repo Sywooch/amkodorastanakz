@@ -54,7 +54,7 @@ $this->title = 'Главная';
                 Лизинг
             </a>
         </div>
-        <div class="services__banner"><img src="<?=$this->theme->getUrl('static/images/content/banner.jpg')?>" alt=""></div>
+        <div class="services__banner"><img src="<?=$this->theme->getUrl('static/images/content/banner.gif')?>" alt=""></div>
     </div>
 </section>
 <section class="how">
