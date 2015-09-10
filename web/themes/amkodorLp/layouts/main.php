@@ -73,7 +73,19 @@ $this->beginPage();
             <footer class="footer">
                 <div class="footer__wrapper">
                     <div class="logo"></div>
-                    <div class="footer__copyright">www.amkodor-astana.kz</div>
+                    <div class="footer__copyright">www.amkodor-astana.kz
+                        <nav class="top-menu">
+                            <a href="http://amkodor.by" target="_blank" title="" class="top-menu__item">О КОМПАНИИ</a>
+                            <a href="<?= Url::to(["/store/category"]) ?>" title="" class="top-menu__item">ТЕХНИКА</a>
+                            <a href="<?= Url::to(["/store/spares"]) ?>" title="" class="top-menu__item">ЗАПЧАСТИ</a>
+                            <a href="<?= Url::to(['/cms/default/page', 'path' => 'servis']) ?>" title=""
+                               class="top-menu__item">СЕРВИС
+                            </a>
+                            <a href="<?= Url::to(['/cms/default/page', 'path' => 'kontakti']) ?>" title=""
+                               class="top-menu__item">КОНТАКТЫ
+                            </a>
+                        </nav>
+                    </div>
                     <div class="footer__phone"><span>+7 7172 531-676</span><span>+7 771 833-26-70</span></div>
                 </div>
             </footer>
