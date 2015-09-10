@@ -12,6 +12,13 @@ $this->title = $sparesCategory->title;
         <div class="spare-part-content__title"><?=$sparesCategory->title?></div>
         <?=$sparesCategory->description?>
 
+        <?php if(empty($sparesList)):?>
+            <p>
+                В данном разделе нету или не добавлены запчасти, проконсультируйтесь бесплатно по телефону: +7 7172
+                531-676
+            </p>
+        <?php endif?>
+
         <?php foreach($sparesList as $sparesTitle => $spares):?>
         <h2><?=$sparesTitle?></h2>
         <?php if( !empty($spares['items']) ):?>
