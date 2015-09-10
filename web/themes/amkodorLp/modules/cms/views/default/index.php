@@ -13,8 +13,8 @@ $this->title = 'Главная';
 <section class="advantages">
     <div class="advantages__wrapper">
         <div class="advantages__title"><span>НАШИ ПРЕИМУЩЕСТВА</span></div>
-        <div class="advantages__item">ПЯТЬ ЛЕТ НАДЕЖНОЙ РАБОТЫ НА РЫНКЕ</div>
-        <div class="advantages__item">БЕСПЛАТНАЯ ДОСТАВКА ПО ВСЕМУ КАЗАХСТАНУ</div>
+        <div class="advantages__item">88 ЛЕТ НАДЕЖНОЙ РАБОТЫ НА РЫНКЕ</div>
+        <div class="advantages__item">СЕРВИС В ТЕЧЕНИИ 24 ЧАСОВ</div>
         <div class="advantages__item">100% ГАРАНТИЯ КАЧЕСТВА ТОВАРА</div>
     </div>
 </section>
@@ -54,7 +54,7 @@ $this->title = 'Главная';
                 Лизинг
             </a>
         </div>
-        <div class="services__banner"><img src="<?=$this->theme->getUrl('static/images/content/banner.jpg')?>" alt=""></div>
+        <div class="services__banner"><img src="<?=$this->theme->getUrl('static/images/content/banner.gif')?>" alt=""></div>
     </div>
 </section>
 <section class="how">

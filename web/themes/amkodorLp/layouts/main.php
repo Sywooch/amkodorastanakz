@@ -65,7 +65,7 @@ $this->beginPage();
                         <a href="<?= Url::to(['/cms/default/page', 'path' => 'servis']) ?>" title="" class="top-menu__item">СЕРВИС</a>
                         <a href="<?= Url::to(['/cms/default/page', 'path' => 'kontakti']) ?>" title="" class="top-menu__item">КОНТАКТЫ</a>
                     </nav>
-                    <div class="header__phone">+7 717 299-92-35</div>
+                    <div class="header__phone">+7 7172 531-676</div>
                     <?php if (Yii::$app->controller->route == 'cms/default/index') echo \app\modules\cms\widgets\Feedback::widget(['template'=>'header'])?>
                 </div>
             </header>
@@ -74,7 +74,7 @@ $this->beginPage();
                 <div class="footer__wrapper">
                     <div class="logo"></div>
                     <div class="footer__copyright">www.amkodor-astana.kz</div>
-                    <div class="footer__phone"><span>+7 717 299-92-35</span><span>+7 717 299-92-36</span></div>
+                    <div class="footer__phone"><span>+7 7172 531-676</span><span>+7 771 833-26-70</span></div>
                 </div>
             </footer>
             <?=\app\modules\store\widgets\SparesOrder::widget()?>
