@@ -65,7 +65,7 @@ $this->beginPage();
                         <a href="<?= Url::to(['/cms/default/page', 'path' => 'servis']) ?>" title="" class="top-menu__item">СЕРВИС</a>
                         <a href="<?= Url::to(['/cms/default/page', 'path' => 'kontakti']) ?>" title="" class="top-menu__item">КОНТАКТЫ</a>
                     </nav>
-                    <div class="header__phone">+7 7172 531-676</div>
+                    <div class="header__phone">+7 7172 999-235</div>
                     <?php if (Yii::$app->controller->route == 'cms/default/index') echo \app\modules\cms\widgets\Feedback::widget(['template'=>'header'])?>
                 </div>
             </header>
@@ -73,7 +73,7 @@ $this->beginPage();
             <footer class="footer">
                 <div class="footer__wrapper">
                     <div class="logo"></div>
-                    <div class="footer__copyright">www.amkodor-astana.kz
+                    <div class="footer__copyright"><!-- www.amkodor-astana.kz -->
                         <nav class="top-menu">
                             <a href="http://amkodor.by" target="_blank" title="" class="top-menu__item">О КОМПАНИИ</a>
                             <a href="<?= Url::to(["/store/category"]) ?>" title="" class="top-menu__item">ТЕХНИКА</a>
@@ -86,7 +86,7 @@ $this->beginPage();
                             </a>
                         </nav>
                     </div>
-                    <div class="footer__phone"><span>+7 7172 531-676</span><span>+7 771 833-26-70</span></div>
+                    <div class="footer__phone"><span>+7 7172 999-235</span><span>+7 771 531-676</span></div>
                 </div>
             </footer>
             <?=\app\modules\store\widgets\SparesOrder::widget()?>

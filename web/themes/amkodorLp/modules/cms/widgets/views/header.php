@@ -10,7 +10,7 @@ $config['fieldConfig']['options'] = ['class'=>''];
 ?>
 <section class="request">
     <div class="request__title">Оставить Заявку!</div>
-    <div class="request__description">на подбор Европейской спецтехники прямо сейчас и мы свяжемся с
+    <div class="request__description">на подбор спецтехники прямо сейчас и мы свяжемся с
         Вами в течении 30 минут
     </div>
     <?php $form = ActiveForm::begin($config) ?>
