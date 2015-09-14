@@ -86,7 +86,7 @@ $this->beginPage();
                             </a>
                         </nav>
                     </div>
-                    <div class="footer__phone"><span>+7 7172 999-235</span><span>+7 771 531-676</span></div>
+                    <div class="footer__phone"><span>+7 7172 999-235</span><span>+7 7172 531-676</span></div>
                 </div>
             </footer>
             <?=\app\modules\store\widgets\SparesOrder::widget()?>
