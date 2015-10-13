@@ -82,6 +82,9 @@ $this->beginPage();
                             <a href="<?= Url::to(['/cms/default/page', 'path' => 'servis']) ?>" title=""
                                class="top-menu__item">СЕРВИС
                             </a>
+                            <a href="<?= Url::to(['/cms/default/page', 'path' => 'lizing']) ?>" title=""
+                               class="top-menu__item">Лизинг
+                            </a>
                             <a href="<?= Url::to(['/cms/default/page', 'path' => 'kontakti']) ?>" title=""
                                class="top-menu__item">КОНТАКТЫ
                             </a>
