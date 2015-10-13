@@ -63,6 +63,7 @@ $this->beginPage();
                         <a href="<?= Url::to(["/store/category"]) ?>" title="" class="top-menu__item">ТЕХНИКА</a>
                         <a href="<?= Url::to(["/store/spares"]) ?>" title="" class="top-menu__item">ЗАПЧАСТИ</a>
                         <a href="<?= Url::to(['/cms/default/page', 'path' => 'servis']) ?>" title="" class="top-menu__item">СЕРВИС</a>
+                        <a href="<?= Url::to(['/cms/default/page', 'path' => 'lizing']) ?>" title="" class="top-menu__item">Лизинг</a>
                         <a href="<?= Url::to(['/cms/default/page', 'path' => 'kontakti']) ?>" title="" class="top-menu__item">КОНТАКТЫ</a>
                     </nav>
                     <div class="header__phone">+7 7172 999-235</div>
