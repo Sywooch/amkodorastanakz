@@ -34,7 +34,6 @@
             'id',
             'title',
             'model',
-            'price',
             // 'alias',
             // 'memo',
 

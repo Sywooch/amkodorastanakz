@@ -43,7 +43,7 @@ class SparesUpload extends \yii\base\Model
                 $v = iconv('windows-1251', 'utf-8', $v);
             }
 
-            list($category, $title, $model, $price) = $row;
+            list($category, $title, $model) = $row;
 
             if ($i == 0 && empty($category)) {
                 $result = false;
@@ -68,7 +68,6 @@ class SparesUpload extends \yii\base\Model
             $item->productId = $this->productId;
             $item->title = $title;
             $item->model = $model;
-            $item->price = $price;
             $item->save();
         }
 
