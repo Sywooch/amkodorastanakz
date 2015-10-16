@@ -45,7 +45,8 @@ $this->beginPage();
             <meta property="og:image:height" content="300"/>
             <meta property="twitter:description" content=""/>
             <link rel="image_src" href=""/>
-            <link rel="icon" type="image/png" href="favicon.ico">
+            <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+            <link rel="icon" href="/favicon.ico" type="image/x-icon">
             <script>(function (H) {
                     H.className = H.className.replace(/\bno-js\b/, 'js')
                 })(document.documentElement)</script>
