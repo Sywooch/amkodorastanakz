@@ -59,7 +59,7 @@ $this->beginPage();
                 <div class="header__wrapper">
                     <a href="<?=Url::home()?>" title="" class="logo"></a>
                     <nav class="top-menu">
-                        <a href="http://amkodor.by" target="_blank" title="" class="top-menu__item">О КОМПАНИИ</a>
+                        <a href="#about" target="_blank" title="" class="top-menu__item">О КОМПАНИИ</a>
                         <a href="<?= Url::to(["/store/category"]) ?>" title="" class="top-menu__item">ТЕХНИКА</a>
                         <a href="<?= Url::to(["/store/spares"]) ?>" title="" class="top-menu__item">ЗАПЧАСТИ</a>
                         <a href="<?= Url::to(['/cms/default/page', 'path' => 'servis']) ?>" title="" class="top-menu__item">СЕРВИС</a>
@@ -98,6 +98,6 @@ $this->beginPage();
             <?= $this->endBody() ?>
             <script src="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js" ></script>
             <script src="<?=$this->theme->getUrl('static/js/main.min.js')?>" ></script>
-            <script src="<?=$this->registerJsFile('/site/js/app.js')?>" ></script>
+            <script src="<?=$this->registerJsFile('@web/site/js/app.js')?>" ></script>
         </body>
 <?php $this->endPage()?>

@@ -17,10 +17,10 @@ $config = [
         'assetManager' => [
             'bundles' => [
                 'yii\web\JqueryAsset' => [
-//                    'sourcePath' => '@webroot/themes/asil/js',
-                    'sourcePath'=>null,
+                   'sourcePath' => '@webroot/themes/amkodorLp/static/js',
+                    // 'sourcePath'=>null,
                     'basePath'=>null,
-                    'baseUrl'=>'http://code.jquery.com',
+                    // 'baseUrl'=>'/themes/amkodorLp/static/js',
                     'js' => ['jquery-2.1.4.js'] // тут путь до Вашего экземпляра jquery
                 ],
             ],

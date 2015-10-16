@@ -13,7 +13,7 @@ $this->title = 'Главная';
 <section class="advantages">
     <div class="advantages__wrapper">
         <div class="advantages__title"><span>НАШИ ПРЕИМУЩЕСТВА</span></div>
-        <div class="advantages__item">88 ЛЕТ НАДЕЖНОЙ РАБОТЫ НА РЫНКЕ</div>
+        <div class="advantages__item">БОЛЕЕ 80 ЛЕТ НАДЕЖНОЙ РАБОТЫ НА РЫНКЕ</div>
         <div class="advantages__item">СЕРВИС В ТЕЧЕНИИ 24 ЧАСОВ</div>
         <div class="advantages__item">100% ГАРАНТИЯ КАЧЕСТВА ТОВАРА</div>
     </div>
@@ -88,7 +88,7 @@ $this->title = 'Главная';
         </div>
     </div>
 </section>
-<section class="about">
+<section class="about" id="#about">
     <div class="about__wrapper">
         <div class="about__title"><span>О компании</span></div>
         <div class="about__content">
