@@ -88,7 +88,7 @@ $this->title = 'Главная';
         </div>
     </div>
 </section>
-<section class="about" id="#about">
+<section class="about" id="about">
     <div class="about__wrapper">
         <div class="about__title"><span>О компании</span></div>
         <div class="about__content">
@@ -130,7 +130,7 @@ $this->title = 'Главная';
             </tr>
             <tr class="clients-list__row">
                 <td class="clients-list__item"></td>
-                <td class="clients-list__item"><img src="<?=$this->theme->getUrl('static/images/content/client-10.png')?>" alt=""></td>
+                <td class="clients-list__item"></td>
                 <td class="clients-list__item"></td>
                 <td class="clients-list__item"><img src="<?=$this->theme->getUrl('static/images/content/client-12.png')?>" alt=""></td>
             </tr>
